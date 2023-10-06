@@ -94,8 +94,6 @@ class Main extends FileManager {
   }
 }
 
-const path =
-  "C:/Users/riahi/OneDrive/Desktop/Excel To JSON/GetModel/Feuille de calcul sans titre.xlsx";
 
 const app = new Main(process.argv[2]);
 app.excute();
